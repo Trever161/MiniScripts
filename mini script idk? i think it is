@@ -1,0 +1,5 @@
+while read keyb
+do
+    svc command goes here
+    [[ $keyb == x ]] && break
+done
